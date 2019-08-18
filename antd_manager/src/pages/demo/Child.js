@@ -23,9 +23,9 @@ export default class Child extends React.Component{
   componentDidUpdate() {
       console.log('will update')
   }
-  componentDidUpdate() {
-      console.log('didupdate')
-  }
+//   componentDidUpdate() {
+//       console.log('didupdate')
+//   }
   render() {
       return (
           <div>
