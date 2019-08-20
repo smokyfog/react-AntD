@@ -16,12 +16,12 @@ export default class Root extends React.Component{
             <Switch>
               <Route path='/main' render={() => 
                 <Main>
-                  <Route path='/main/:value' component={ Info }></Route>
+                  <Route path='/main/:value' component={ Info }></Route>  {/* 动态路由 */}
                 </Main>
               }></Route>
               <Route path='/about' render={() => 
                 <About>
-                  <Route path='/about/a' component={ Topics }></Route>
+                  <Route path='/about/a' component={ Topics }></Route>    {/* 嵌套路由 */}
                 </About>
               }></Route>
               <Route path='/topics' component={ Topics }></Route>
