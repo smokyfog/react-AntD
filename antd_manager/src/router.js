@@ -16,7 +16,14 @@ import login from './pages/form/login'
 import register from './pages/form/register'
 import basic from './pages/table/basicTable'
 import high from './pages/table/highTable'
-
+import city from './pages/city/index'
+import order from './pages/order/index'
+import user from './pages/user/index'
+import bar from './pages/echarts/bar'
+import line from './pages/echarts/line'
+import pie from './pages/echarts/pie'
+import permission from './pages/permission'
+import bikeMap from './pages/map/bikeMap'
 
 
 export default class IRouter extends React.Component{
@@ -40,6 +47,14 @@ export default class IRouter extends React.Component{
                 <Route path='/admin/form/reg' component={ register } />
                 <Route path='/admin/table/basic' component={ basic } />
                 <Route path='/admin/table/high' component={ high } />
+                <Route path='/admin/city' component={ city } />
+                <Route path='/admin/order' component={ order } />
+                <Route path='/admin/bikeMap' component={ bikeMap } />
+                <Route path='/admin/user' component={ user } />
+                <Route path='/admin/charts/bar' component={ bar } />
+                <Route path='/admin/charts/line' component={ line } />
+                <Route path='/admin/charts/pie' component={ pie } />
+                <Route path='/admin/permission' component={ permission } />
                 <Route component={ NoMatch } />
               </Switch>
             </Admin>
