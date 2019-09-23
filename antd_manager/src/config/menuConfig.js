@@ -1,7 +1,7 @@
 const menuList = [
     {
         title: '首页',
-        key: '/home'
+        key: '/admin/home'
     },
     {
         title: 'UI',
@@ -95,10 +95,10 @@ const menuList = [
         title: '员工管理',
         key: '/admin/user'
     },
-    {
-        title: '车辆地图',
-        key: '/admin/bikeMap'
-    },
+    // {
+    //     title: '车辆地图',
+    //     key: '/admin/bikeMap'
+    // },
     {
         title: '图标',
         key: '/admin/charts',
