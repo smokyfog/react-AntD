@@ -69,10 +69,10 @@ const menuList = [
             }
         ]
     },
-    {
-        title: '富文本',
-        key: '/admin/rich'
-    },
+    // {
+    //     title: '富文本',
+    //     key: '/admin/rich'
+    // },
     {
         title: '城市管理',
         key: '/admin/city'
